@@ -11,9 +11,9 @@ We will be working with the oXygen XML Editor in this workshop, which you should
 ### Accessing workshop files:
 
 * Download this zipped directory to your computer and unzip to access the files:
-<https://github.com/TEIC/tei2024-XSLT-workshop/archive/refs/heads/main.zip>
+<https://github.com/TEIC/XSLT-workshop/archive/refs/tags/v2.0.zip>
 
-* If you know how to use GitHub, you should fork our repository at <https://github.com/ebeshero/dh2022-XSLT-workshop/>
+* If you know how to use GitHub, you should fork our repository at <https://github.com/TEIC/XSLT-workshop>
 
 ### Outline
 Please feel free to interrupt us vocally with questions! We also have a Google Doc that we can use for the workshop participants to share notes, paste in code, and ask questions: <https://docs.google.com/document/d/1Z2_P4Hwxaw_6SKEXnee5CQ5BRgNZIyEI1tF3QSZvkOg/edit?usp=sharing>
