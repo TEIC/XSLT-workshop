@@ -1,11 +1,6 @@
 ## Navigating and Processing Data from the TEI with XSLT
 
-Welcome to our workshop at TEI2024! Your hosts are an international team: 
-* [Elisa Beshero-Bondar](https://github.com/ebeshero) (Professor of Digital Humanities @ Digital Media, Arts, and Technology program, Penn State Behrend, USA). 
-* [Martina Scholger](https://github.com/martinascholger) (Senior Scientist @ Department of Digital Humanities, University of Graz, Austria). 
-* [Gustavo Riva](https://github.com/GusRiva) (Senior Scientist @ University Library, Heidelberg University, Germany)
-
-We are coordinating together to help test how well TEI and XSLT can connect the encoding and processing of documents across language and cultural differences.  
+Welcome to our workshop! We are going to investigate how well TEI and XSLT can connect the encoding and processing of documents across language and cultural differences.  
 
 ### Description and goals
 Knowing how to navigate and explore data in your encoding can be an important way to learn how to work with TEI and XML generally. This workshop is designed for people who have some experience with markup languages and seek to learn more about how to work with digital scholarly editions as a basis for analysis and research. Markup in documents supplies structures and contexts that are particularly useful for processing data beyond what we can do with so-called "plain text". Our workshop will teach the pull-processing of data from XML/TEI with simple, reusable XSLT templates to represent in simple TSV/CSV and HTML tables/charts.
