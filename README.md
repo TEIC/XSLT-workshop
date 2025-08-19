@@ -4,8 +4,12 @@ XSLT-workshop
 
 Code repository to support the workshop **"Navigating and Processing Data from the TEI with XSLT"**. 
 
-## Instructor:
+## Instructors:
 * Elisa Beshero-Bondar (Professor of Digital Humanities @ Digital Media, Arts, and Technology program, Penn State Behrend, USA).
+
+* Martina Scholger
+
+* Patricia O'Connor
 
 
 
