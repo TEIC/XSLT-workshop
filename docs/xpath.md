@@ -56,4 +56,4 @@ Write XPath expressions to isolate different parts of speech, working carefully 
 # Troubleshooting
 ## Selecting the  XPath Scope in Oxygen
 
-- Select the icon with the down arrow at the beginning of the XPath text field ![XPath scope icon](xpath-scope.gif)
+- Click the icon with the down arrow at the beginning of the XPath text field and select one of the options from the drop down menu. ![XPath scope icon](xpath-scope.gif)
