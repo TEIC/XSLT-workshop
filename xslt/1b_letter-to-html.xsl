@@ -29,7 +29,7 @@
            -->
            <html>
             <head>
-                <title><xsl:apply-templates select="//titleStmt/title" /></title>
+                <title><xsl:value-of select="//titleStmt/title" /></title>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
             </head>
             <body>
