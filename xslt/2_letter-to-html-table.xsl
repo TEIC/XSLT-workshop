@@ -70,10 +70,10 @@
    <xsl:template match="correspDesc">
         <tr>
             <td>
-                <xsl:value-of select="correspAction[@type='received']/persName" />
+                <xsl:value-of select="correspAction[@type='received']/persName[not(@role)] | correspAction[@type='sent']/persName[@role='addressee']" />
             </td>
             <td>
-                <xsl:value-of select="correspAction[@type='sent']/persName" />
+                <xsl:value-of select="correspAction[@type='sent']/persName[not(@role)] | correspAction[@type='sent']/persName[@role='sender']" />
             </td>
             <td>
                 <xsl:value-of select="correspAction[@type='sent']//placeName" />
@@ -81,6 +81,7 @@
             <td>
                 <xsl:value-of select="correspAction[@type='sent']/date/@when" />
             </td>
+            
         </tr>
     </xsl:template>
     
