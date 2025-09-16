@@ -2,7 +2,7 @@
 <!--<?xml-model href="../tei_all_ja_430.rnc" type="application/relax-ng-compact-syntax"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ja">
     <teiHeader>
-        <fileDesc>
+        <fileDesc><!-- Hi there! -->
             <titleStmt>
                 <title>漱石筆鏡子宛て書簡</title>
                 <author>夏目漱石</author>
@@ -28,7 +28,7 @@
                     </address>
                 </pubPlace>
                 <date when="2022-07-25">令和四年七月二十五日</date>
-                <idno>ID_of_this_file</idno>
+                <idno>ID_of_this_file令和四年七月二十五日</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                         クリエイティブ・コモンズ　表示 - 継承 4.0 国際 (CC BY-SA 4.0)

@@ -33,9 +33,13 @@ Please feel free to interrupt us vocally with questions! We also have a Google D
 #### [Part 3: Teach basic XSLT](xslt.md)
 to produce simple outputs that curate data and show how these can be used in simple charts and graphs.
 * Letter publication to HTML
+    * collection transformation outputs to `output/html-letters`
 * Letter to HTML Table
+    * outputs to `output/letter-to-table.html`
 * Text 
+    * outputs to `output/letter-to-text.txt`
 * SVG 
+    * outputs to `output/letter-to-svg.svg`
 
 #### Resources for continuing with XSLT
 * Our Teaching Materials:

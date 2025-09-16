@@ -28,12 +28,23 @@
     
  <xsl:mode on-no-match="shallow-copy"/>
     
-    <xsl:template match="persName">
-        <name type="person"><xsl:apply-templates/></name>   
+    <xsl:template match="s">
+        <s n="{preceding::s => count() + 1}"> 
+          <xsl:apply-templates/>
+        </s>
+        
     </xsl:template>
     
-    <xsl:template match="w">  
-        <xsl:apply-templates/>
+    
+  <xsl:template match="persName">
+        <name type="person">
+            <xsl:apply-templates/>
+        </name>   
     </xsl:template>
+    
+    <!--<xsl:template match="w">  
+        <w> <xsl:apply-templates/></w>
+   
+    </xsl:template> -->
     
 </xsl:stylesheet>

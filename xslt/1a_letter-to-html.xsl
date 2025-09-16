@@ -44,8 +44,8 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
- <!-- ebb: In the following two templates, we apply some CSS color highlighting to proper names, or to nouns with determiners (in the Spanish letter) using the HTML <em> element and  @style attribute  -->   
+    
+    <!-- ebb: In the following two templates, we apply some CSS color highlighting to proper names, or to nouns with determiners (in the Spanish letter) using the HTML <em> element and  @style attribute  -->   
     <xsl:template match="w[@pos='N']">
         <!-- Try making this template match on more elements in other letter files with:
         *[@ref] | *[@corresp] | w[@pos='N']
@@ -55,13 +55,13 @@
         </em>
     </xsl:template>
     
-    <xsl:template match="w[@pos='D'][following-sibling::w[1][@pos='N']]">
+    <xsl:template match="placeName">
         <em style="color:blue;"><xsl:apply-templates/></em>
     </xsl:template>
     
     
     <xsl:template match="figure"/>
-   
+    
     <!--ebb: This template above is suppressing elements from being output! Try commenting it 
     out and inspect the results. Are there other elements from the input that we may want to
     suppress in the output?
@@ -69,7 +69,7 @@
     -->
     
     <xsl:template match="choice">
-       <xsl:apply-templates select="orig | abbr"/>
+        <xsl:apply-templates select="reg "/>
     </xsl:template>
     <!-- This template above is processsing the <choice> elements in the input and 
     it is processing on the contents of the <orig> and <abbr> children. 
@@ -77,6 +77,8 @@
     (Do we see the contents of <reg> or  <expan> in the output?)
     -->
     
+    
+   
     
    <xsl:template match="TEI[@xml:lang='ja']//text()">
         <xsl:value-of select="normalize-space(.)"/>
