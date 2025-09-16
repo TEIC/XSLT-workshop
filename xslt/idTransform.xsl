@@ -42,9 +42,5 @@
         </name>   
     </xsl:template>
     
-    <!--<xsl:template match="w">  
-        <w> <xsl:apply-templates/></w>
    
-    </xsl:template> -->
-    
 </xsl:stylesheet>
