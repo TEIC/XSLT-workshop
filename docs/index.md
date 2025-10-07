@@ -15,6 +15,9 @@ We will be working with the oXygen XML Editor in this workshop, which you should
 
 * If you know how to use GitHub, you should fork our repository at <https://github.com/TEIC/XSLT-workshop>
 
+* The slides for the introducation to XPath are available at <https://slides.com/elisabeshero-bondar/xpath-intro>
+
+
 ### Outline
 Please feel free to interrupt us vocally with questions! We also have a Google Doc that we can use for the workshop participants to share notes, paste in code, and ask questions: <https://docs.google.com/document/d/1Z2_P4Hwxaw_6SKEXnee5CQ5BRgNZIyEI1tF3QSZvkOg/edit?usp=sharing>
 

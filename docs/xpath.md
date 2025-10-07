@@ -1,6 +1,3 @@
-### Accessing workshop files:
-* The slides for the workshop are available at <https://slides.com/elisabeshero-bondar/xpath-intro>
-
 # What is XPath
 XPath is a syntax used in XSLT, XQuery, and other X-technologies to navigate through XML documents and generate "returns." For example, it can be used to extract subtrees, manipulate data, or count elements.
 
