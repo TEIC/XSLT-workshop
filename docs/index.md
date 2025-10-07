@@ -15,7 +15,6 @@ We will be working with the oXygen XML Editor in this workshop, which you should
 
 * If you know how to use GitHub, you should fork our repository at <https://github.com/TEIC/XSLT-workshop>
 
-* The slides for the introducation to XPath are available at <https://slides.com/elisabeshero-bondar/xpath-intro>
 
 
 ### Outline
@@ -32,6 +31,7 @@ Please feel free to interrupt us vocally with questions! We also have a Google D
 
 #### [Part 2: Orientation to XPath](xpath.md)
 * working with project files to retrieve data with XPath in preparation for writing XSLT
+* The slides for the introducation to XPath presentation are available at <https://slides.com/elisabeshero-bondar/xpath-intro>
 
 #### [Part 3: Teach basic XSLT](xslt.md)
 to produce simple outputs that curate data and show how these can be used in simple charts and graphs.
